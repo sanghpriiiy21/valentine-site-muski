@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Be My Valentine 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <div class="hearts-container"></div>
+  <div class="sparkles-container"></div>
+
+  <section id="page1" class="page active">
+    <div class="card">
+      <div class="icon">💝</div>
+      <h1>Will you be my Valentine?</h1>
+      <p class="subtitle">I have something special for you ✨</p>
+
+      <div class="buttons">
+        <button id="yesBtn">Yes 💖</button>
+        <button id="noBtn">No 🙃</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="page2" class="page">
+    <div class="celebration-content">
+      <h2>Yay! Thanks for being mine! 💘</h2>
+      <p>I can't wait for our memories together.</p>
+      
+      <div class="photo-wall">
+        <div class="polaroid"><img src="images/pic1.jpg" alt="Memory 1"></div>
+        <div class="polaroid"><img src="images/pic2.jpg" alt="Memory 2"></div>
+        <div class="polaroid"><img src="images/pic3.jpg" alt="Memory 3"></div>
+      </div>
+    </div>
+  </section>
+
+  <audio id="bgMusic" src="music/love.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
